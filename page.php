@@ -14,8 +14,8 @@
 
 get_header();
 ?>
-	<main id="primary" class="site-main">
-ARk ça marche
+    <main id="primary" class="site-main">
+        ARk ça marche
 		<?php
 		while ( have_posts() ) :
 			the_post();
@@ -29,7 +29,7 @@ ARk ça marche
 		endwhile; // End of the loop.
 		?>
 
-	</main><!-- #main -->
+    </main><!-- #main -->
 
 <?php
 get_sidebar();
