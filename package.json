@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "git": "git add . && git commit -m devPush && git push --all",
+    "git": "git add . && git commit -m devPush && git push --all webpack --mode=production --watch",
     "build": "webpack --mode=development",
     "watch": "webpack --mode=production --watch"
   },
