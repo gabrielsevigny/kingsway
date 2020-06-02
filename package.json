@@ -4,9 +4,10 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "git": "git add . && git commit -m xaxa",
+    "postgit": "git push --all",
     "build": "webpack --mode=development",
-    "watch": "webpack --mode=production --watch",
-    "precommit": "webpack --mode=development"
+    "watch": "webpack --mode=production --watch"
   },
   "author": "Gabriel Sévigny",
   "license": "ISC",
