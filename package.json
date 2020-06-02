@@ -4,10 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "git": "git add . && git commit -m devPush && git push --all",
     "build": "webpack --mode=development",
-    "watch": "webpack --mode=production --watch",
-    "test": "git add . && git commit -m devPush && git push --all && webpack --mode=production --watch"
+    "watch": "webpack --mode=production --watch"
   },
   "author": "Gabriel Sévigny",
   "license": "ISC",
