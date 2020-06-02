@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --mode=development",
-    "watch": "webpack --mode=production --watch"
+    "watch": "webpack --mode=production --watch",
+    "precommit": "webpack --mode=development"
   },
   "author": "Gabriel Sévigny",
   "license": "ISC",
