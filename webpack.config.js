@@ -7,7 +7,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const WebpackNotifierPlugin = require('webpack-notifier');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
-const $proxy = 'http://dev.webpack';
+const $proxy = 'https://test.dev.gabrielsevigny.com';
 
 module.exports = {
     context: __dirname,

@@ -9,6 +9,7 @@
   },
   "author": "Gabriel Sévigny",
   "license": "ISC",
+  "homepage": "https://github.com/gabrielsevigny/kingsway.git",
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.10.2",
